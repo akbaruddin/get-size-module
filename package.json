@@ -1,12 +1,12 @@
 {
-  "name": "get-size",
-  "version": "3.0.0",
+  "name": "get-size-module",
+  "version": "0.1.1",
   "description": "measures element size",
   "main": "get-size.js",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-plugin-metafizzy": "^1.2.1",
-    "qunit": "^2.17.2"
+    "eslint": "^8.38.0",
+    "eslint-plugin-metafizzy": "^2.0.1",
+    "qunit": "^2.19.4"
   },
   "directories": {
     "test": "test"
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/desandro/get-size.git"
+    "url": "git+https://github.com/akbaruddin/get-size-module.git"
   },
   "keywords": [
     "size",
@@ -27,9 +27,9 @@
   "author": "David DeSandro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/desandro/get-size/issues"
+    "url": "https://github.com/akbaruddin/get-size-module/issues"
   },
-  "homepage": "https://github.com/desandro/get-size",
+  "homepage": "https://github.com/akbaruddin/get-size-module",
   "eslintConfig": {
     "plugins": [
       "metafizzy"
