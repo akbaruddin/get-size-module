@@ -1,6 +1,6 @@
 {
   "name": "get-size-module",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "main": "dist/index.iife.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -12,15 +12,29 @@
     "start": "tsup src/index.ts --config tsup.config.ts --watch",
     "build": "tsup src/index.ts --config tsup.config.ts",
     "prepare": "tsup src/index.ts --config tsup.config.ts",
-    "test": "npx serve ./"
+    "test": "npx serve ./",
+    "release": "release-it"
   },
   "engines": {
     "node": ">=18"
   },
   "dependencies": {},
   "devDependencies": {
+    "release-it": "^15.10.1",
     "tslib": "^2.5.0",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akbaruddin/get-size-module.git"
+  },
+  "keywords": [
+    "size",
+    "DOM"
+  ],
+  "bugs": {
+    "url": "https://github.com/akbaruddin/get-size-module/issues"
+  },
+  "homepage": "https://github.com/akbaruddin/get-size-module"
 }
