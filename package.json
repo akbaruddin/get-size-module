@@ -1,0 +1,26 @@
+{
+  "name": "get-size-module",
+  "version": "0.1.0",
+  "main": "dist/index.iife.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "akbaruddin"
+  },
+  "scripts": {
+    "start": "tsup src/index.ts --config tsup.config.ts --watch",
+    "build": "tsup src/index.ts --config tsup.config.ts",
+    "prepare": "tsup src/index.ts --config tsup.config.ts",
+    "test": "npx serve ./"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslib": "^2.5.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
